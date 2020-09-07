@@ -15,7 +15,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -89,7 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Roster.Client\Roster.Client.csproj">
-      <Project>{58D79543-F186-4463-84E8-110C9FB1A0C3}</Project>
+      <Project>{3D7FF921-C9CA-4358-9A40-1E87BD5352E3}</Project>
       <Name>Roster.Client</Name>
     </ProjectReference>
   </ItemGroup>

@@ -8,6 +8,12 @@ namespace Roster.Client.Views
         public HomeView()
         {
             InitializeComponent();
+            BindingContext = new HomeViewModel();
         }
+    }
+
+    class HomeViewModel
+    {
+        readonly string Title = "This is the title";
     }
 }
