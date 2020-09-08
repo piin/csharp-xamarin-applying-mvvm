@@ -11,7 +11,7 @@
             HorizontalTextAlignment="Center"
             VerticalOptions="Start"
             />
-        <Button x:Name="AddPersonButton" x:FieldModifier="public" Text="Update Application" />
+        <Button x:Name="AddPersonButton" x:FieldModifier="public" Text="Update Application" Command="{Binding UpdateApplicationCommand, Mode=OneTime}" />
         <ListView x:Name="PeopleListView" x:FieldModifier="public" VerticalOptions="FillAndExpand">
             <ListView.ItemTemplate>
                 <DataTemplate>
